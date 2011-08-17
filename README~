@@ -1,0 +1,20 @@
+Hi! here's some more info on what this is. Basically I was thinking it would be
+awesome if the
+noun project had an API for their icons- it would totally make them spread
+faster. After I
+couldn't find one I wrote a simple one using bottle.
+
+You can get an icon of a particular noun as an img or a json.
+
+For the json:
+just search the <noun> with http://texticons.whichlight.com/api/<noun>, and
+you'll get back a json with
+{'status' : ' ... ', 'data' : '...'} where status will be Success if there is an
+icon, and
+Fail if there is not. 'data' will return back the icon link if there is an icon.
+it just
+retrieves the first icon if there are multiple ones.
+
+For the img:
+just search the <noun> with http://texticons.whichlight.com/icon/<noun> and
+you'll get an img. 
