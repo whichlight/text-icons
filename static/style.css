@@ -1,0 +1,128 @@
+/*
+Theme Name: Minimal for text to icons
+Theme URI: 
+Description: A theme created by Kawandeep Virdee to design the Open Finance Initiative site
+Version: 1
+Author: Kawandeep Virdee
+Author URI: 
+Tags: fixed width, simple
+
+
+*/
+
+body{
+background-image:url('texture.png');
+text-align:center;
+font-family: 'Delius Swash Caps',cursive;
+font-size:20px;
+}	
+
+
+
+
+#add{
+text-align:center;
+width:300px;
+margin: 0 auto;
+padding:0;
+}
+
+#add img{
+float:none;
+margin:0;
+padding:0;
+}
+
+
+#title{
+font-family: 'Sniglet', cursive;	
+color:#C8EBF0;
+opacity:0.95;
+	font-weight:900 ; 
+	font-size:150px; 
+	line-height:150px; 
+	margin: 50px 0px 50px 0px;
+text-shadow: 2px 2px 2px #000;
+}
+
+#content{
+box-shadow: 2px 2px 2px #888;
+/*text-shadow: 0.25px 0.25px 0.5px #666;*/
+border-radius:15px;
+opacity:0.85;
+background:white;
+font-family: 'Permanent Marker', cursive;
+margin:auto;
+width:75%;
+/*color: #5C5E5E;*/
+color:#FFD78E;
+font-size:50px;
+vertical-align:center;
+line-height:150px;
+padding: 50px;
+}
+
+
+#inpt{
+font-family:helvetica;
+font-size:22px;
+margin-top:20px;
+margin-bottom:20px;
+border-radius:5px;
+color:#5C5E5E;
+}
+
+#btn
+{
+   font-family:helvetica;
+   background-color:#CCFFFF;
+   border-style:solid;
+	font-size:15px;
+	color:#5C5E5E;
+	border-radius:5px;
+}
+
+img, object, embed{
+margin: 0px 10px 0px 10px;
+}
+
+object{
+width:100px;
+vertical-align:middle;
+height:100px;
+}
+
+a{
+z-index:2;
+}
+form{
+margin:20px;
+}
+
+#footer{
+ color: #5C5E5E;
+  width: 65%;
+margin:auto;
+    padding: 30px;
+    font-size:18px;
+bottom:0;
+}
+
+#f_big{
+font-size:25px;
+}
+
+#spacer {
+    width: 50%;
+    margin: auto;
+    position:relative;
+    height: 20px;
+    border-bottom:2px dotted #CCC;
+    margin-bottom:20px;
+    clear: both;
+    
+}
+
+.image{
+z-index: 0;
+}

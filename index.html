@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>text+icons</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>    
+		<link rel="stylesheet" href="./static/style.css" type="text/css" /> 
+<link href='http://fonts.googleapis.com/css?family=Delius+Swash+Caps|Sniglet:800|Permanent+Marker' rel='stylesheet' type='text/css'>
+</head>
+<!--
+Hi!  here's some more info on what this is.  Basically I was thinking it would be awesome if the 
+noun project had an API for their icons- it would totally make them spread faster.  After I 
+couldn't find one I wrote a simple one using bottle.  
+
+You can get an icon of a particular noun as an img or a json. 
+
+For the json:
+just search the <noun> with http://texticons.whichlight.com/api/<noun>, and you'll get back a json with 
+{'status' : ' ... ', 'data' : '...'} where status will be Success if there is an icon, and 
+Fail if there is not. 'data' will return back the icon link if there is an icon.  it just 
+retrieves the first icon if there are multiple ones. 
+
+For the img:
+just search the <noun> with http://texticons.whichlight.com/icon/<noun> and you'll get an img. 
+
+awesome! i'm on github under whichlight
+-->
+
+<body>
+    <div id="title">text+icons </div>
+
+<div id = "loadingDiv"><img src='./static/ajax-loader.gif' alt = 'loading'> </div>
+<div id="content">
+
+
+</div>
+
+
+<FORM NAME="myform" ACTION="" METHOD="POST">
+<INPUT TYPE="text" NAME="query" size = "50" id = 'inpt' VALUE = ''/>
+
+<INPUT TYPE="submit" NAME="button" Value="go" id = "btn" />
+
+</FORM>
+
+
+
+<!-- AddThis Button BEGIN -->
+<div id="add">
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+
+<a class="addthis_button_twitter"></a>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_email"></a>
+<!--<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_preferred_3"></a>
+<a class="addthis_button_preferred_4"></a>-->
+<!--<a class="addthis_button_tweet"></a>-->
+<a class="addthis_button_compact"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e30e00f476f4bbe"></script>
+
+</div>
+<!-- AddThis Button END -->
+
+
+
+
+
+<div id='footer'>
+<div id='f_big'>
+Make a text+icon phrase or poem.  
+<br>
+If you like, you can share your text+icons.
+<br><br>
+
+</div><!-- f_big-->
+<a href="http://texticons.whichlight.com">text+icons</a> is a way to creatively explore the Noun Project icons,<br> and aid in identifying missing icons from the set.<br><br>  Made by <a href = "http://whichlight.com">which light</a> using the awesome icons of <a href = 'http://thenounproject.com/'>the Noun Project</a>. <br>
+View source for the API. 
+</div>
+
+
+</body>
+
+<script type = "text/javascript"  src="./static/icons_load.js"></script>
+<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.1.1 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-11846710-1']);
+	_gaq.push(['_trackPageview'],['_trackPageLoadTime']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script> 
+
+</html>
+
